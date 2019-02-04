@@ -3,9 +3,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(array)
-  array.each {|a| a.capitalize! << '!'}
+  #array.each {|a| a.capitalize! << '!'}
   #better - doesn't change original array
-  #array.map {|a| a.capitalize << "!"}
+  array.map {|a| a.capitalize << "!"}
 end
 
 def long_planeteer_calls(array)
