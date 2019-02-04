@@ -33,3 +33,12 @@ def find_the_cheese(foods)
   end
   nil
 end
+
+#alt
+def find_the_cheese(foods)
+  cheeses = %w[gouda cheddar camembert]
+
+  foods.find { |maybe_cheese|
+    cheeses.include?(maybe_cheese)
+  }
+end
