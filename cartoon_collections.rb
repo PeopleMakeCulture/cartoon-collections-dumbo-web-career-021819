@@ -35,10 +35,7 @@ def find_the_cheese(foods)
 end
 
 #alt
-def find_the_cheese(foods)
+def find_the_cheese_alt(foods)
   cheeses = %w[gouda cheddar camembert]
-
-  foods.find { |maybe_cheese|
-    cheeses.include?(maybe_cheese)
-  }
+  foods.find {|a_food| cheeses.include?(a_food)}
 end
